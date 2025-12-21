@@ -1,0 +1,11 @@
+img.profile {
+	aspect-ratio: 1 / 1;
+	width: 10rem;
+	border-radius: 50%;
+}
+h1 {
+	margin: 0.2rem 0;
+}
+.handle-prefix {
+	margin-right: 0.2em;
+}
