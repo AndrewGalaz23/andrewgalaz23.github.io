@@ -1,6 +1,11 @@
 /* Color palette ........................................................... */
 :root {
 	color-scheme: light dark;
+	/* Brand colors */
+	--palette-primary: #6BD3F2;
+	--palette-primary-contrast: black;
+	--palette-secondary: #F5EA20;
+	--palette-secondary-contrast: black;
 }
 
 /* Main content ............................................................ */
@@ -20,4 +25,22 @@ body {
 section {
 	padding: 12px;
 	max-width: 512px;
+}
+
+/* Selection ............................................................... */
+::selection {
+	background: var(--palette-secondary);
+	color: var(--palette-secondary-contrast);
+}
+
+/* Focus ................................................................... */
+:root {
+	--outline-style: dotted;
+	--outline-width: 2px;
+	--focus-outline: var(--outline-style) var(--outline-width) var(--palette-primary);
+	--focus-outline-offset: 1px;
+}
+:focus-visible {
+	outline: var(--focus-outline);
+	outline-offset: var(--focus-outline-offset);
 }
