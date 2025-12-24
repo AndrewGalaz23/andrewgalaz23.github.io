@@ -9,3 +9,34 @@ h1 {
 .handle-prefix {
 	margin-right: 0.2em;
 }
+
+/* Social links and contact info */
+ul.icon-links {
+	list-style: none;
+	padding-left: 0;
+
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+}
+ul.icon-links a {
+	display: block;
+	height: var(--icon-size);
+
+	color: var(--hover-color, currentColor);
+}
+ul.icon-links a:hover {
+	--hover-color: var(--social-main-color);
+}
+ul.icon-links li.animate a {
+	animation: light-up 100s infinite;
+	animation-delay: calc(23s + calc(var(--animation-nth-child, 1) * 1s - 1s));
+}
+@keyframes light-up {
+	0%, 1% {
+		color: var(--social-main-color);
+	}
+	1.01%, 100% {
+		color: var(--hover-color, currentColor);
+	}
+}

@@ -1,0 +1,25 @@
+# Contact and social network links
+- id: mail
+  name: Email
+  link: mailto:andrew@galaz.net
+- id: telegram
+  name: Telegram
+  link: https://t.me/AndrewGalaz23
+- id: github
+  name: GitHub
+  link: https://github.com/AndrewGalaz23
+- id: linkedin
+  name: LinkedIn
+  link: https://www.linkedin.com/in/andrea-galizzi-a80986116/
+- id: youtube-music
+  name: YouTube Music
+  link: https://music.youtube.com/channel/UCadlBo0dwflE_zslSqBMusA
+- id: racingmania
+  name: RacingMania
+  link: https://racingmania.it/account/1
+- id: youtube
+  name: YouTube
+  link: https://youtube.com/@AndrewGalaz23
+- id: reddit
+  name: Reddit
+  link: https://www.reddit.com/u/AndrewGalaz23

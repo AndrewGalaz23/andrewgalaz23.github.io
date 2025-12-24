@@ -19,3 +19,4 @@ username: AndrewGalaz23
 # Build settings
 plugins:
   - jekyll-redirect-from
+svg_icons: assets/icons.svg?v=1

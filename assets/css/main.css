@@ -6,6 +6,7 @@
 	--palette-primary-contrast: black;
 	--palette-secondary: #F5EA20;
 	--palette-secondary-contrast: black;
+	--palette-link-color: #f631d7;
 }
 
 /* Main content ............................................................ */
@@ -36,7 +37,7 @@ section {
 /* Focus ................................................................... */
 :root {
 	--outline-style: dotted;
-	--outline-width: 2px;
+	--outline-width: 3px;
 	--focus-outline: var(--outline-style) var(--outline-width) var(--palette-primary);
 	--focus-outline-offset: 1px;
 }
@@ -44,3 +45,62 @@ section {
 	outline: var(--focus-outline);
 	outline-offset: var(--focus-outline-offset);
 }
+
+/* Icons ................................................................... */
+:root {
+	--icon-size: 24px;
+}
+svg.icon {
+	fill: var(--icon-color, currentColor);
+	width: var(--icon-size);
+	aspect-ratio: 1 / 1;
+}
+
+/* Social network colors ................................................... */
+:root {
+	--social-main-color: #F631D7;
+}
+[data-social="github"] {
+	--social-main-color: #08872B;
+}
+[data-social="racingmania"] {
+	--social-main-color: #1E88E5;
+}
+[data-social="telegram"] {
+	--social-main-color: #24A1DE;
+}
+[data-social="youtube"],
+[data-social="youtube-music"] {
+	--social-main-color: #FF0033;
+}
+[data-social="reddit"] {
+	--social-main-color: #FF4500;
+}
+[data-social="linkedin"] {
+	--social-main-color: #0077B5;
+}
+
+/* Animations .............................................................. */
+li.animate:nth-child(1) { --animation-nth-child: 1 }
+li.animate:nth-child(2) { --animation-nth-child: 2 }
+li.animate:nth-child(3) { --animation-nth-child: 3 }
+li.animate:nth-child(4) { --animation-nth-child: 4 }
+li.animate:nth-child(5) { --animation-nth-child: 5 }
+li.animate:nth-child(6) { --animation-nth-child: 6 }
+li.animate:nth-child(7) { --animation-nth-child: 7 }
+li.animate:nth-child(8) { --animation-nth-child: 8 }
+li.animate:nth-child(9) { --animation-nth-child: 9 }
+li.animate:nth-child(10) { --animation-nth-child: 10 }
+li.animate:nth-child(11) { --animation-nth-child: 11 }
+li.animate:nth-child(12) { --animation-nth-child: 12 }
+li.animate:nth-child(13) { --animation-nth-child: 13 }
+li.animate:nth-child(14) { --animation-nth-child: 14 }
+li.animate:nth-child(15) { --animation-nth-child: 15 }
+li.animate:nth-child(16) { --animation-nth-child: 16 }
+li.animate:nth-child(17) { --animation-nth-child: 17 }
+li.animate:nth-child(18) { --animation-nth-child: 18 }
+li.animate:nth-child(19) { --animation-nth-child: 19 }
+li.animate:nth-child(20) { --animation-nth-child: 20 }
+li.animate:nth-child(21) { --animation-nth-child: 21 }
+li.animate:nth-child(22) { --animation-nth-child: 22 }
+li.animate:nth-child(23) { --animation-nth-child: 23 }
