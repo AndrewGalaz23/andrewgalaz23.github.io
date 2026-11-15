@@ -15,6 +15,7 @@
 # Site settings
 title: Andrea Galizzi
 username: AndrewGalaz23
+lang: en
 
 # Build settings
 plugins:
