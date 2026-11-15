@@ -21,3 +21,11 @@ lang: en
 plugins:
   - jekyll-redirect-from
 svg_icons: assets/icons.svg?v=1
+exclude:
+- README.md
+- LICENSE
+# GitHub Pages.
+- CNAME
+# Local development.
+- Gemfile
+- Gemfile.lock
