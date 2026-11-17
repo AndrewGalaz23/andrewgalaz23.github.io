@@ -76,9 +76,6 @@ svg.icon {
 [data-social="reddit"] {
 	--social-main-color: #FF4500;
 }
-[data-social="linkedin"] {
-	--social-main-color: #0077B5;
-}
 
 /* Animations .............................................................. */
 li.animate:nth-child(1) { --animation-nth-child: 1 }
